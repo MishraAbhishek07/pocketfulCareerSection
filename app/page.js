@@ -1,13 +1,13 @@
 import React from "react";
-import MainNav from "@/Components/MainNav";
-import ValuesCard from "@/Components/Valuecard/ValuesCard";
+import MainNav from "@/components/MainNav";
+import ValuesCard from "@/components/Valuecard/ValuesCard";
 import { valuecard, culture } from "../assets/assets";
-import Perkcards from "@/Components/perkcard/Perkcards";
-import Ourwork from "@/Components/Work/Ourwork";
-import Simplecard from "@/Components/Simplecard/Simplecard";
-import Footer from "@/Components/Footer/Footer";
-import Faqs from "@/Components/Faqs/Faqs";
-import Herosection from "@/Components/Hero/Herosection";
+import Perkcards from "@/components/perkcard/Perkcards";
+import Ourwork from "@/components/Work/Ourwork";
+import Simplecard from "@/components/Simplecard/Simplecard";
+import Footer from "@/components/Footer/Footer";
+import Faqs from "@/components/Faqs/Faqs";
+import Herosection from "@/components/Hero/Herosection";
 const page = () => {
   return (
     <>
