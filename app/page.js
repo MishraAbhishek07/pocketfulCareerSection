@@ -1,7 +1,7 @@
 import React from "react";
 import MainNav from "@/Components/MainNav";
 import ValuesCard from "@/Components/Valuecard/ValuesCard";
-import { valuecard, culture } from "./assets/assets";
+import { valuecard, culture } from "../assets/assets";
 import Perkcards from "@/Components/perkcard/Perkcards";
 import Ourwork from "@/Components/Work/Ourwork";
 import Simplecard from "@/Components/Simplecard/Simplecard";

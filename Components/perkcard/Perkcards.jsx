@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import team from "@/app/assets/team-age.svg";
-import coffee from "@/app/assets/coffee.svg";
-import lunches from "@/app/assets/lunches.svg";
-import age from "@/app/assets/team-age.svg";
+import team from "@/assets/team-age.svg";
+import coffee from "@/assets/coffee.svg";
+import lunches from "@/assets/lunches.svg";
+import age from "@/assets/team-age.svg";
 import { useInView } from "react-intersection-observer";
 
 const Perkcards = () => {

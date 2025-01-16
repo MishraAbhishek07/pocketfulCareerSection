@@ -55,7 +55,7 @@ body {
   justify-content: space-between;
   padding: 16px 2rem;
 } */
-
+/* 
 @media screen and (max-width: 1536px) {
   .btn-alt::before {
     animation: shine-alt1 2s ease-in-out infinite;
@@ -74,4 +74,4 @@ body {
     position: absolute;
     top: 0;
   }
-}
+} */
