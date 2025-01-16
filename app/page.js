@@ -8,6 +8,7 @@ import Simplecard from "@/components/Simplecard/Simplecard";
 import Footer from "@/components/Footer/Footer";
 import Faqs from "@/components/Faqs/Faqs";
 import Herosection from "@/components/Hero/Herosection";
+//
 const page = () => {
   return (
     <>
