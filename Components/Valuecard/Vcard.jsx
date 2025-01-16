@@ -10,7 +10,7 @@ const Vcard = ({ heading, img, paragraph, className = "" }) => {
           "0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1)",
       }}
     >
-      {/* Image */}
+  
       <Image
         src={img}
         alt="logo"
@@ -18,11 +18,11 @@ const Vcard = ({ heading, img, paragraph, className = "" }) => {
         width={140}
         className="object-contain md:pl-5 mb-2"
       />
-      {/* Heading */}
+    
       <h1 className="text-xl font-semibold mb-1 md:text-left md:pl-5 text-center">
         {heading}
       </h1>
-      {/* Paragraph */}
+    
       <p className="text-sm font-semibold text-gray-600 md:pl-5 md:text-left text-center md:block mb-3">
         {paragraph}
       </p>

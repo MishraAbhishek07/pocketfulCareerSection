@@ -12,19 +12,18 @@ const Herosection = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [cursorDirection, setCursorDirection] = useState({ x: 0, y: 0 });
 
-  // Track mouse movement only inside Herosection
+
   const handleMouseMove = (e) => {
     const { clientX, clientY } = e;
 
-    // Get the position relative to the Herosection
     const rect = e.currentTarget.getBoundingClientRect();
     const offsetX = clientX - rect.left;
     const offsetY = clientY - rect.top;
 
-    // Update cursor position
+
     setCursorPosition({ x: offsetX, y: offsetY });
 
-    // Determine the direction of movement
+
     setCursorDirection({
       x: offsetX - cursorPosition.x,
       y: offsetY - cursorPosition.y,
@@ -34,7 +33,7 @@ const Herosection = () => {
   return (
     <div
       className="relative flex flex-col md:flex-row items-center justify-center gap-10 h-[90vh]"
-      onMouseMove={handleMouseMove} // Add mouse move event listener
+      onMouseMove={handleMouseMove} 
     >
       <BackgroundGrid />
 
@@ -52,7 +51,7 @@ const Herosection = () => {
         <CTAButton />
       </div>
 
-      {/* Cube and SemiCircle Images without animation */}
+     
       <CubeImage
         src={cube}
         alt="Cube 1"
@@ -85,7 +84,7 @@ const Herosection = () => {
         className="bottom-3 left-3 absolute md:hidden"
       />
 
-      {/* Medium & Large Screen Cubes & SemiCircles */}
+    
       <CubeImage
         src={cube}
         alt="Cube 1"
@@ -118,7 +117,7 @@ const Herosection = () => {
         className="hidden md:block bottom-3 left-3 absolute md:bottom-10 md:z-10 md:left-1/2 md:pl-52 -translate-x-1/2 mt-20"
       />
 
-      {/* JobCards (with animation only on larger screens) */}
+   
       <JobCards cursorDirection={cursorDirection} />
 
       <div className="absolute bottom-0 left-1/2 w-[100%] max-w-none -translate-x-1/2 md:w-full">

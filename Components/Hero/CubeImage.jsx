@@ -1,4 +1,4 @@
-// CubeImage.js
+
 import Image from "next/image";
 
 const CubeImage = ({ src, alt, width, height, className }) => {
