@@ -5,6 +5,8 @@ import JobCards from "./JobCards";
 import CubeImage from "./CubeImage";
 import SemiCircleImage from "./SemiCircleImage";
 import CTAButton from "./CTAButton";
+import cube from "@/public/cube1.svg";
+import circle from "@/public/semiCircle1.svg";
 
 const Herosection = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -52,7 +54,7 @@ const Herosection = () => {
 
       {/* Cube and SemiCircle Images without animation */}
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube1.svg"
+        src={cube}
         alt="Cube 1"
         width={50}
         height={50}
@@ -60,7 +62,7 @@ const Herosection = () => {
       />
 
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube1.svg"
+        src={cube}
         alt="Cube 1"
         width={50}
         height={50}
@@ -68,7 +70,7 @@ const Herosection = () => {
       />
 
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube2.svg"
+        src={cube}
         alt="Cube 2"
         width={50}
         height={50}
@@ -76,7 +78,7 @@ const Herosection = () => {
       />
 
       <SemiCircleImage
-        src="https://content.pocketful.in/seoCareersImages/svg/semiCircle1.svg"
+        src={circle}
         alt="Semi Circle 1"
         width={50}
         height={50}
@@ -85,7 +87,7 @@ const Herosection = () => {
 
       {/* Medium & Large Screen Cubes & SemiCircles */}
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube1.svg"
+        src={cube}
         alt="Cube 1"
         width={100}
         height={100}
@@ -93,7 +95,7 @@ const Herosection = () => {
       />
 
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube1.svg"
+        src={cube}
         alt="Cube 1"
         width={70}
         height={70}
@@ -101,7 +103,7 @@ const Herosection = () => {
       />
 
       <CubeImage
-        src="https://content.pocketful.in/seoCareersImages/svg/cube2.svg"
+        src={cube}
         alt="Cube 2"
         width={50}
         height={50}
@@ -109,7 +111,7 @@ const Herosection = () => {
       />
 
       <SemiCircleImage
-        src="https://content.pocketful.in/seoCareersImages/svg/semiCircle1.svg"
+        src={circle}
         alt="Semi Circle 1"
         width={70}
         height={70}

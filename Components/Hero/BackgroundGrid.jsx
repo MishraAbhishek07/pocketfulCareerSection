@@ -1,9 +1,10 @@
 import Image from "next/image";
+import grid from "@/public/grid.svg";
 
 const BackgroundGrid = () => (
   <div className="absolute left-1/2 top-0 w-[100%] max-w-none -translate-x-1/2 md:w-[100%]">
     <Image
-      src="https://content.pocketful.in/seoCareersImages/svg/grid.svg"
+      src={grid}
       alt="Hero section grid"
       className="opacity-25 md:opacity-15"
       width={1200}
