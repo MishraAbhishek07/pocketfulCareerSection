@@ -93,7 +93,7 @@ const Section = ({ imgSrc, title, count, delay }) => {
       <Image
         alt={title}
         src={imgSrc}
-        width={160}
+        width={count === 42689 ? 114 : 160}
         height={160}
         className="aspect-auto"
       />
